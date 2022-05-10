@@ -49,4 +49,4 @@ jobs:
 
           SURGE_LOGIN: ${{ secrets.SURGE_LOGIN }}
 
-        run: npx -yes surge ./dist voiceless-silk.surge.sh
+        run: npx -yes surge ./dist selfish-ticket.surge.sh
