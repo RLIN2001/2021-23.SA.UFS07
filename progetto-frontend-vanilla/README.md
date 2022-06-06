@@ -12,4 +12,4 @@
 
 # Public URL
 
-https://voiceless-silk.surge.sh/
+http://selfish-ticket.surge.sh/
