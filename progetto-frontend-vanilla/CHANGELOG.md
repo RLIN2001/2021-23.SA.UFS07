@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.8.0](https://github.com/RLIN2001/2021-23.SA.UFS07/compare/v1.7.1...v1.8.0) (2022-06-10)
+
+
+### Features
+
+* edit component button ([5e3d5df](https://github.com/RLIN2001/2021-23.SA.UFS07/commit/5e3d5dfdc2929bfa95f10f6e837b715771a8d61e))
+* update buttonjsx ([a2535bd](https://github.com/RLIN2001/2021-23.SA.UFS07/commit/a2535bd54ffc11f9d540f66440b3c905bd555467))
+* update version npm node ([2e51dee](https://github.com/RLIN2001/2021-23.SA.UFS07/commit/2e51deea242213d2b0f8d6c7426bcf794fad49e1))
+
+
+### Bug Fixes
+
+* update readme ([cb5ce84](https://github.com/RLIN2001/2021-23.SA.UFS07/commit/cb5ce84fe34a4d259d3ebd4dec8f0719b53fb99a))
+
 ### [1.7.1](https://github.com/RLIN2001/2021-23.SA.UFS07/compare/v1.7.0...v1.7.1) (2022-05-31)
 
 ## [1.7.0](https://github.com/RLIN2001/2021-23.SA.UFS07/compare/v1.6.1...v1.7.0) (2022-05-31)
