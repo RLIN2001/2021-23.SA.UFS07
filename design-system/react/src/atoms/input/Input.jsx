@@ -1,13 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { isValid } from 'ipaddr.js';
 
 /**
  * Primary UI component for user interaction
  */
-export const Input = ({ placeholder, onData, type }) => {
+export const Input = ({ id, placeholder, onData, isValid, type, label }) => {
 
-  
-  
   function onInput (InputEvent)
   {
     console.log("Input.onData",InputEvent);
@@ -16,25 +15,36 @@ export const Input = ({ placeholder, onData, type }) => {
     }
   }
 
+  const message= isValid ? "valore corretto" : "valore errato"
   return (
-    <input
+    <>
+      <input id={id}
       onInput={onInput}
       placeholder={placeholder}
       type={type}
     >
     </input>
+
+    {label===undefined ? null : <label htmlFor={id}>{label}</label>}
+    {isValid===undefined ? null : message}
+    </>
   );
 };
 
 Input.propTypes = {
-  placeholder: PropTypes.string.isRequired,
+  id:PropTypes.string.isRequired,
+  placeholder: PropTypes.string,
   onData: PropTypes.func,
   isValid: PropTypes.bool,
   type: PropTypes.string,
+  label:PropTypes.string,
 };
 
 Input.defaultProps = {
+  id: undefined,
   type:'text',
   onData: undefined,
   isValid: undefined,
+  placeholder:undefined,
+  label:undefined,
 };
