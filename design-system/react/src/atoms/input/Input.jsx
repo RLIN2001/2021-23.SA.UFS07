@@ -22,7 +22,6 @@ export const Input = ({ placeholder, onData, type }) => {
       placeholder={placeholder}
       type={type}
     >
-      {label}
     </input>
   );
 };
@@ -34,7 +33,7 @@ Input.propTypes = {
   type: PropTypes.string,
 };
 
-Button.defaultProps = {
+Input.defaultProps = {
   type:'text',
   onData: undefined,
   isValid: undefined,
