@@ -14,5 +14,12 @@ export default {
 
   export const Par = Template.bind({});
 Par.args = {
-   children:<Text label={'label'}></Text>
+   children:<><Text label={'label'}></Text><Text label={'label'}></Text></>,
 };
+
+export const Par2=Template.bind({});
+const a=Text({label:"ciaooo"});
+Par2.args={
+  children:a,
+}
+
