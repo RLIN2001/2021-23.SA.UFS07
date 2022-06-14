@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/RLIN2001/2021-23.SA.UFS07/compare/ds1.5.0...ds1.6.0) (2022-06-14)
+
+
+### Features
+
+* update version packege ([cecad59](https://github.com/RLIN2001/2021-23.SA.UFS07/commit/cecad59a7f4043cfd0cbdc507deebfdb3bc22164))
+* vs package ([29131b5](https://github.com/RLIN2001/2021-23.SA.UFS07/commit/29131b5e9987c66e074176cdd29ddef1e444fa6a))
+
 ## [1.5.0](https://github.com/RLIN2001/2021-23.SA.UFS07/compare/ds1.4.0...ds1.5.0) (2022-06-10)
 
 
