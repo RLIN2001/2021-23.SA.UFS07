@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-export const Text=({})=>{
+export const Text=({label})=>{
     return (
-        <span>Hello World!</span>
+        <span>{label}</span>
     );
 };
 
@@ -16,5 +16,5 @@ Text.PropTypes={
 
 
 Text.defaultProps = {
-
+    label:"Hello World",
 }
