@@ -17,9 +17,9 @@ Par.args = {
    children:<><Text label={'label'}></Text><Text label={'label'}></Text></>,
 };
 
-export const Par2=Template.bind({});
+export const Pars=Template.bind({});
 const a=Text({label:"ciaooo"});
-Par2.args={
+Pars.args={
   children:a,
 }
 
