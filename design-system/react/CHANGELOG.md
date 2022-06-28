@@ -2,6 +2,30 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.7.0](https://github.com/RLIN2001/2021-23.SA.UFS07/compare/ds1.6.3...ds1.7.0) (2022-06-28)
+
+
+### Features
+
+* add tailwind config file to react folder ([3af70e0](https://github.com/RLIN2001/2021-23.SA.UFS07/commit/3af70e035a852ca60981dfa350e4231893ec742b))
+* add tailwind to button style ([a04a98a](https://github.com/RLIN2001/2021-23.SA.UFS07/commit/a04a98a83f9f144d4fa2f4059bff670134fb2d5a))
+* downloaded dependecies ([c70b4a3](https://github.com/RLIN2001/2021-23.SA.UFS07/commit/c70b4a3371013987ccee87c401d71a0ade5879ea))
+* paragraph stories and packege json ([b88d696](https://github.com/RLIN2001/2021-23.SA.UFS07/commit/b88d696b16b57cfa362fefda0a9bc754d03d7e63))
+* removed border ([0d4b754](https://github.com/RLIN2001/2021-23.SA.UFS07/commit/0d4b7542a9e1a05c33e0fe8eb595387ce7b8c8f0))
+* setup version and add input ([4d1abcf](https://github.com/RLIN2001/2021-23.SA.UFS07/commit/4d1abcfc45ce57d64366831267f51ccfac73d735))
+* tailwind color ([8865491](https://github.com/RLIN2001/2021-23.SA.UFS07/commit/88654918cebb3cad9189d1d7d73c4627622b1418))
+* tailwind css book samples ([76bd973](https://github.com/RLIN2001/2021-23.SA.UFS07/commit/76bd9739e220a4ad73eb9bf8db8427f312af4c20))
+* update js and config tailwind ([49c5eb9](https://github.com/RLIN2001/2021-23.SA.UFS07/commit/49c5eb9e5353b75cf3736b4cb3cdc91f8c94e23c))
+
+
+### Bug Fixes
+
+* add component text ([f640604](https://github.com/RLIN2001/2021-23.SA.UFS07/commit/f64060451c03d29fba83fcbe7305ec0876e0dcc1))
+* add paragraph component ([8ea9c4b](https://github.com/RLIN2001/2021-23.SA.UFS07/commit/8ea9c4bf51be434114046bcbd7ac201abc07f78b))
+* add plugin babelrc ([33f9cc2](https://github.com/RLIN2001/2021-23.SA.UFS07/commit/33f9cc20dcf98fdc8702bc627b2a836da7fd9456))
+* text jsx ([36f21fb](https://github.com/RLIN2001/2021-23.SA.UFS07/commit/36f21fb96281f40bcbb2ed9c75799b237cf6ae6d))
+* update paragraph stories ([f38e562](https://github.com/RLIN2001/2021-23.SA.UFS07/commit/f38e56275341e8f6be567e8f7ccc1e3ad44406bd))
+
 ### [1.6.3](https://github.com/RLIN2001/2021-23.SA.UFS07/compare/ds1.6.2...ds1.6.3) (2022-06-14)
 
 ### [1.6.2](https://github.com/RLIN2001/2021-23.SA.UFS07/compare/ds1.6.1...ds1.6.2) (2022-06-14)
