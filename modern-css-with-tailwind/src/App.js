@@ -14,6 +14,11 @@ function App() {
     <>
       <h1>Welcome to NorthBy</h1>
 
+<div class="group-focus">
+  <input type="text" class="focus:bg-yellow-300"></input>
+  <input type="text" class="focus:bg-green-300"></input>
+  <input type="text" class="focus:bg-purple-300"></input>
+</div>
       <br/><br/>
       <hr/ >
       <br/><br/>
@@ -35,14 +40,14 @@ function App() {
       <br/><br/>
 
 
-      <div class="flex justify-center bg-yellow-400 md:bg-red-500 md:text-8xl lg:bg-blue-700 ">
+      <div class="flex justify-center animate-bounce bg-yellow-400 md:bg-red-500 md:text-8xl lg:bg-blue-700 ">
         <div class="mx-4 order-last hidden md:block">
-          <img src={music} size="100x100" alt="Logo" />;
+          <img class="hover:animate-spin" src={music} size="100x100" alt="Logo" />;
         </div>
         <div class="mx-4 self-center">
           <h1 class="text-yellow-300" >prova</h1>
-          <h2>Ciao ciao</h2>
-          <button>Learn More</button>
+          <h2 class="transition-colors duration-150 delay-1000  bg-purple-500 hover:bg-green-500">Ciao ciao</h2>
+          <button class="button  transition-colors bg-pink-500 hover:bg-red-600 duration-1000">Learn More</button>
         </div>
       </div>
 
@@ -55,7 +60,7 @@ function App() {
           <img src={music} size="100x100" alt="Logo" />;
         </div>
         <div class="mx-4 self-center text-center">
-          <h1 class="text-6xl font-bold text-blue-700">Welcome to NorthBy</h1>
+          <h1 class="text-6xl font-bold text-blue-700 transform transition duration-1000 hover:scale-110 hover:shadow-lg">Welcome to NorthBy</h1>
           <h2 class="text-3xl font-semibold text-blue-300">
             A premium in sight and sound
           </h2>
